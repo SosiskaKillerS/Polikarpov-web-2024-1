@@ -1,0 +1,100 @@
+* { 
+    box-sizing: border-box;
+}  /* Символ * - универсальный селектор, который применяеться ко всем элементам на странице. Это означает, что правила будут действовать на каждый div, p, img */ 
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+} 
+
+header {
+    padding: 20px;
+    background-color: #f8f8f8;
+    text-align: center; /* выравнивает текст и встроенные элементы */ 
+}
+
+
+h1 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    color: black;
+}
+
+nav a:hover {
+    color: tomato;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+p {
+    font-size: 1rem;
+    color: #f8f8f8;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+ul li {
+    font-size: 1rem;
+    color: #333;
+    margin: 10px 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse; /* для исчезноваения двойных границ между ячейками */ 
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+footer a:hover {
+    color: tomato;
+}
