@@ -13,7 +13,12 @@ header {
     background-color: #f8f8f8;
     text-align: center; /* выравнивает текст и встроенные элементы */ 
 }
-
+header p{
+    margin: 10px;
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
 
 h1 {
     font-size: 2rem;
@@ -38,6 +43,7 @@ nav a:hover {
 
 main {
     padding: 20px;
+
 }
 
 h2 {
@@ -51,9 +57,14 @@ img {
     margin-top: 20px;
 }
 
-p {
+footer p {
     font-size: 1rem;
     color: #f8f8f8;
+}
+
+main p{
+    font-size: 1rem;
+    color: black;
 }
 
 ul {
