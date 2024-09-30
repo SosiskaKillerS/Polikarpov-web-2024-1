@@ -1,12 +1,11 @@
 * { 
-    box-sizing: border-box;
-}  /* Символ * - универсальный селектор, который применяеться ко всем элементам на странице. Это означает, что правила будут действовать на каждый div, p, img */ 
-
-body {
+    box-sizing: border-box; 
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-} 
+}  /* Символ * - универсальный селектор, который применяеться ко всем элементам на странице. Это означает, что правила будут действовать на каждый div, p, img */ 
+/* Свойство box-sizing в CSS определяет, как должен рассчитываться размер элемента */
+/* border-box указывает, что ширина и высота элемента включают в себя внутренние отступы (padding) и границы (border), но не включают внешние отступы (margin). */
 
 header {
     padding: 20px;
@@ -16,12 +15,12 @@ header {
 header p{
     margin: 10px;
     color: #f8f8f8;
-    font-size: 1.5rem;
+    font-size: 24px;
     font-weight: 700;
 }
 
 h1 {
-    font-size: 2rem;
+    font-size: 36px;
     font-weight: 700;
 }
 
@@ -33,7 +32,7 @@ nav a {
     margin: 0 15px;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
-    font-size: 1rem;
+    font-size: 18px;
     color: black;
 }
 
@@ -47,7 +46,7 @@ main {
 }
 
 h2 {
-    font-size: 1.5rem;
+    font-size: 24px;
     font-weight: 700;
 }
 
@@ -58,22 +57,22 @@ img {
 }
 
 footer p {
-    font-size: 1rem;
+    font-size: 18px;
     color: #f8f8f8;
 }
 
 main p{
-    font-size: 1rem;
+    font-size: 18px;
     color: black;
 }
 
 ul {
-    list-style-type: disc;
+    list-style: none;
     padding-left: 20px;
 }
 
 ul li {
-    font-size: 1rem;
+    font-size: 18px;
     color: #333;
     margin: 10px 0;
 }
@@ -103,7 +102,7 @@ footer {
 footer a {
     color: white;
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 18px;
 }
 
 footer a:hover {
