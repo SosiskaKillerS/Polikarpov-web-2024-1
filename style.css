@@ -108,3 +108,36 @@ footer a {
 footer a:hover {
     color: tomato;
 }
+
+@media (max-width: 800px) {
+    .menu-section {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .main-menu ul {
+        justify-content: space-between;
+    }
+
+    header h1 {
+        text-align: center;
+    }
+}
+
+@media (max-width: 600px) {
+    .main-menu ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main-menu a {
+        font-size: 22px;
+    }
+
+    section h2 {
+        text-align: center;
+    }
+
+    .menu-section {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
