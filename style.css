@@ -110,34 +110,78 @@ footer a:hover {
 }
 
 @media (max-width: 800px) {
-    .menu-section {
-        grid-template-columns: repeat(2, 1fr);
+    h1 {
+        font-size: 30px;
     }
 
-    .main-menu ul {
-        justify-content: space-between;
+    header p {
+        font-size: 20px;
     }
 
-    header h1 {
-        text-align: center;
-    }
-}
-
-@media (max-width: 600px) {
-    .main-menu ul {
-        flex-direction: column;
-        align-items: center;
+    nav a {
+        margin: 0 10px;
+        font-size: 16px;
     }
 
-    .main-menu a {
+    h2 {
         font-size: 22px;
     }
 
-    section h2 {
-        text-align: center;
+    img {
+        width: 100%; /* Изображение займёт всю ширину контейнера */
+        height: auto;
     }
 
-    .menu-section {
-        grid-template-columns: repeat(1, 1fr);
+    main p, ul li, footer p, footer a {
+        font-size: 16px;
+    }
+
+    table, th, td {
+        font-size: 14px;
+        padding: 10px;
+    }
+}
+
+/* Стили для экрана с шириной до 600px */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    header p {
+        font-size: 18px;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column; /* Навигационные ссылки отображаются в столбик */
+        align-items: center;
+    }
+
+    nav a {
+        margin: 5px 0; /* Добавляем отступы между ссылками */
+        font-size: 14px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    main p, ul li, footer p, footer a {
+        font-size: 14px;
+    }
+
+    table, th, td {
+        font-size: 12px;
+        padding: 8px;
+    }
+
+    footer {
+        padding: 10px;
     }
 }
