@@ -14,19 +14,6 @@ body {
     min-height: 100vh;
 }
 
-.main-menu a:hover {
-    color: tomato;
-}
-
-.main-menu a.active {
-    color: tomato;
-}
-
-
-.main-menu{
-    margin-top: 10px;
-}
-
 .wrapper {
     display: flex;
     flex-direction: column;
@@ -34,22 +21,15 @@ body {
 }
 
 header {
+    background-color: black;
+    color: white;
     padding: 20px 0;
-    background-color: #f8f8f8;
-    text-align: center;
 }
 
 header h1 {
-    font-size: 36px;
-    font-weight: 700;
-    text-align: center;
-}
-
-header p{
-    margin: 10px;
-    color: #f8f8f8;
     font-size: 24px;
     font-weight: 700;
+    text-align: center;
 }
 
 .main-menu ul {
@@ -60,15 +40,21 @@ header p{
 }
 
 .main-menu li {
-    font-size: 18px;
-    color: #333;
     margin: 0 15px;
 }
 
 .main-menu a {
-    color: black;
+    color: white;
     text-decoration: none;
     font-size: 18px;
+}
+
+.main-menu a:hover {
+    color: #0056b3;
+}
+
+.main-menu a.active {
+    color: tomato;
 }
 
 main {
@@ -112,7 +98,7 @@ section h2 {
     border: 2px solid tomato;
 }
 
-.menu-item button:hover{
+.menu-item:hover button {
     background-color: tomato;
 }
 
@@ -131,6 +117,7 @@ section h2 {
 
 .menu-item button {
     background-color: #f1eee9;
+    color: white;
     border: none;
     padding: 10px 30px;
     cursor: pointer;
@@ -139,13 +126,16 @@ section h2 {
     margin-top: 20px;
 }
 
-
+.menu-item button:hover {
+    background-color: #004494;
+}
 
 footer {
     background-color: black;
     color: white;
-    padding: 20px;
     text-align: center;
+    padding: 20px;
+    margin-top: auto;
 }
 
 footer p {
@@ -154,13 +144,12 @@ footer p {
 }
 
 footer a {
-    color: white;
+    color: #007bff;
     text-decoration: none;
-    font-size: 18px;
 }
 
 footer a:hover {
-    color: tomato;
+    color: #0056b3;
 }
 
 @media (max-width: 800px) {
