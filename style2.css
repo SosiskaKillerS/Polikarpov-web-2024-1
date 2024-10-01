@@ -54,7 +54,6 @@ header p{
 
 .main-menu ul {
     list-style: none;
-    text-align: center;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
