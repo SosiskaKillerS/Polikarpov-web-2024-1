@@ -1,4 +1,3 @@
-/* Общие стили */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -23,6 +22,7 @@ body {
     color: tomato;
 }
 
+
 .main-menu{
     margin-top: 10px;
 }
@@ -34,7 +34,7 @@ body {
 }
 
 header {
-    padding: 20px;
+    padding: 20px 0;
     background-color: #f8f8f8;
     text-align: center;
 }
@@ -42,6 +42,7 @@ header {
 header h1 {
     font-size: 36px;
     font-weight: 700;
+    text-align: center;
 }
 
 header p{
@@ -139,6 +140,8 @@ section h2 {
     margin-top: 20px;
 }
 
+
+
 footer {
     background-color: black;
     color: white;
@@ -161,70 +164,35 @@ footer a:hover {
     color: tomato;
 }
 
-/* Медиа-запрос для экранов с максимальной шириной 800px */
 @media (max-width: 800px) {
     .menu-section {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
     }
 
-    .menu-item {
-        padding: 20px;
-    }
-
-    .menu-img {
-        border-radius: 20px;
-    }
-}
-
-/* Медиа-запрос для экранов с максимальной шириной 600px */
-@media (max-width: 600px) {
-    .menu-section {
-        grid-template-columns: 1fr;
-    }
-
-    .menu-item {
-        padding: 15px;
-    }
-
-    .menu-img {
-        border-radius: 15px;
+    .main-menu ul {
+        justify-content: center;
     }
 
     header h1 {
-        font-size: 28px;
+        text-align: center;
     }
+}
 
-    header p {
-        font-size: 20px;
-    }
-
-    .main-menu li {
-        font-size: 16px;
-        margin: 0 10px;
+@media (max-width: 600px) {
+    .main-menu ul {
+        flex-direction: column;
+        align-items: center;
     }
 
     .main-menu a {
-        font-size: 16px;
+        font-size: 22px;
     }
 
     section h2 {
-        font-size: 20px;
+        text-align: center;
     }
 
-    .menu-item p {
-        font-size: 16px;
-    }
-
-    .menu-item button {
-        font-size: 14px;
-        padding: 8px 20px;
-    }
-
-    footer p {
-        font-size: 16px;
-    }
-
-    footer a {
-        font-size: 16px;
+    .menu-section {
+        grid-template-columns: 1fr;
     }
 }
