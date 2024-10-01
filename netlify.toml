@@ -1,6 +1,0 @@
-[[
-redirects
-]]
-  from = "/index.html"
-  to = "/page2.html"
-  status = 301
