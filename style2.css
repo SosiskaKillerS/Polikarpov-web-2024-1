@@ -164,6 +164,117 @@ footer a:hover {
     color: tomato;
 }
 
+#order-form h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+#order-form h3{
+    margin-bottom: 20px;
+}
+
+#order-form p{
+    font-size: small;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+#order-form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+}
+
+.order-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.order-section, .data-section {
+    width: 48%;
+}
+
+label {
+    font-weight: 700;
+    display: block;
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+
+select, input[type="text"], input[type="email"], input[type="tel"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+textarea {
+    resize: none;
+}
+
+input[type="time"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+input[type="radio"] {
+    margin-right: 8px;
+}
+
+fieldset {
+    margin-bottom: 20px;
+    border: none;
+}
+
+legend {
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    background-color: #f0f0f0;
+    color: #333;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #e0e0e0;
+}
+
+button[type="reset"] {
+    background-color: #ff4747;
+    color: white;
+}
+
+button[type="reset"]:hover {
+    background-color: #e04040;
+}
+
+
 @media (max-width: 800px) {
     .menu-section {
         grid-template-columns: repeat(2, 1fr);
