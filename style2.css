@@ -164,10 +164,6 @@ footer a:hover {
     color: tomato;
 }
 
-button:hover{
-    background-color: #8f0606;
-}
-
 @media (max-width: 800px) {
     .menu-section {
         grid-template-columns: repeat(2, 1fr);
